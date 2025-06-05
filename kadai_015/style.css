@@ -1,25 +1,20 @@
-.body {
+body {
   font-family: "Arial","Meiryo",sans-serif;
+  text-align: center;
 }
 
 html {
-  font-size: 48px;
-  text-align: center;
+  font-size: 20px;
 }
 h1 { 
 font-size: 2rem;
 letter-spacing: 1.2em;
-sans-serif;
+font-family:sans-serif;
 text-shadow: 1px 1px 2px rgb(41, 37, 37);
 border-bottom: 3px solid rgb(115, 115, 114);
+
 }
-#parent {
-  font-weight: bold;
-}
-#child {
-  font-weight: bold;
-}
-#grandchild {
+#basic >p {
   font-weight: bold;
 }
 .blue {
